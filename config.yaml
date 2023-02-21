@@ -1,0 +1,18 @@
+{
+# target variable
+  'target_variable' : "team1_victory",
+
+# possible score ranges per player per game, min and max inclusive
+  'scoring_ranges' : {
+    'a1' : [1,2],
+    'a2' : [1,2],
+    'a3' : [1,2],
+    'b1' : [0,1],
+    'b2' : [0,1],
+    'b3' : [0,1],
+    'c1' : [-1,1],
+    'c2' : [-1,1],
+    'd1' : [-2,0],
+    'd2' : [-2,0]
+    }
+}

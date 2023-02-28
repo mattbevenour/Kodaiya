@@ -4,10 +4,15 @@ Welcome to my pet project!
 These notebooks attempt to simulate a series of pick-up games of ice hockey from a consistent pool of players of varying skills. We do this by randomly assigning teams each game and randomly determining how many goals individual players contribute to their team's score (or more accurately, how each player's performance contributes to a score delta each game). In this simplified approach, players are stratified into 4 categories (which can be customized in the config.yaml file) with each player signified by their skill category and an index.
 
 Score ranges per player rating-
+
 A Players (3 players- a1, a2, a3): contribute [1,2] goals a game
+
 B Players (3 players- b1, b2, b3): contribute [0,1] goals a game
+
 C Players (2 players- c1, c2): contribute [-1,1] goals a game
+
 D Players (2 players- d1, d2): contribute [-2,0] goals a game
+
 
 The features of the model will be which players are present on which team each game, and then the label will be a boolean 'Did team 1 win this game?'. Ties will be labeled as a non-win for team 1 and 
 
